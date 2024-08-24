@@ -113,8 +113,8 @@ const CONFIG = {
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '电报交流',
-  HEO_SOCIAL_CARD_TITLE_2: '点击里联系我',
-  HEO_SOCIAL_CARD_TITLE_3: '五哥放羊',
+  HEO_SOCIAL_CARD_TITLE_2: '      请点击联系我',
+  HEO_SOCIAL_CARD_TITLE_3: '                      五哥放羊',
   HEO_SOCIAL_CARD_URL: 'https://t.me/mipaer',
 
   // *****  以下配置无效，只是预留开发 ****
