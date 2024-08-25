@@ -12,11 +12,11 @@ const CONFIG = {
   // 英雄区左右侧组件颠倒位置
   HEO_HERO_REVERSE: false,
   // 博客主体区左右侧组件颠倒位置
-  HEO_HERO_BODY_REVERSE: false,
+  HEO_HERO_BODY_REVERSE: true,
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享乐趣',
-  HEO_HERO_TITLE_2: '记录生活日记',
+  HEO_HERO_TITLE_2: '记录生活',
   HEO_HERO_TITLE_3: 'MIfan',
   HEO_HERO_TITLE_4: '人生格言',
   HEO_HERO_TITLE_5: '幻想是人生的一面墙',
@@ -112,9 +112,9 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '电报交流',
-  HEO_SOCIAL_CARD_TITLE_2: '      请点击联系我',
-  HEO_SOCIAL_CARD_TITLE_3: '                      五哥放羊',
+  HEO_SOCIAL_CARD_TITLE_1: '联系博主',
+  HEO_SOCIAL_CARD_TITLE_2: '电报交流,请点击联系我',
+  HEO_SOCIAL_CARD_TITLE_3: '五哥放羊',
   HEO_SOCIAL_CARD_URL: 'https://t.me/mipaer',
 
   // *****  以下配置无效，只是预留开发 ****
