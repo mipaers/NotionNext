@@ -17,7 +17,7 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享乐趣',
   HEO_HERO_TITLE_2: '记录生活',
-  HEO_HERO_TITLE_3: 'MIfan',
+  HEO_HERO_TITLE_3: 'Mifan',
   HEO_HERO_TITLE_4: '人生格言',
   HEO_HERO_TITLE_5: '幻想是人生的一面墙',
   HEO_HERO_TITLE_LINK: 'https://blog.mipaer.top',
