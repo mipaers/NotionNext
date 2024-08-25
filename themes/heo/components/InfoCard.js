@@ -17,7 +17,7 @@ export function InfoCard(props) {
   const { siteInfo, notice } = props
   const router = useRouter()
   // 在文章详情页特殊处理
-  const isSlugPage = router.pathname.indexOf('/[prefix]') === 0 && false;
+  const isSlugPage = router.pathname.indexOf('/[prefix]') === 0
   const url1 = siteConfig('HEO_INFO_CARD_URL1', null, CONFIG)
   const icon1 = siteConfig('HEO_INFO_CARD_ICON1', null, CONFIG)
   const url2 = siteConfig('HEO_INFO_CARD_URL2', null, CONFIG)
@@ -30,12 +30,14 @@ export function InfoCard(props) {
         <GreetingsWords />
         <div
           className={`${isSlugPage ? 'absolute right-0 -mt-8 -mr-6 hover:opacity-0 hover:scale-150 blur' : 'cursor-pointer'} justify-center items-center flex dark:text-gray-100 transform transitaion-all duration-200`}>
+          /*
           <LazyImage
             src={siteInfo?.icon}
             className='rounded-full'
             width={isSlugPage ? 100 : 28}
             alt={siteConfig('AUTHOR')}
           />
+          */
         </div>
       </div>
 
