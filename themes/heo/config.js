@@ -20,8 +20,8 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'Mifan',
   HEO_HERO_TITLE_4: '人生格言',
   HEO_HERO_TITLE_5: '幻想是人生的一面墙',
-  HEO_HERO_TITLE_6: '幻想是人生的一面墙2',
-  HEO_HERO_TITLE_7: '幻想是人生的一面墙3',
+  HEO_HERO_TITLE_6: '对于未知保持敬畏之心',
+  HEO_HERO_TITLE_7: '吾日三省吾身',
   HEO_HERO_TITLE_LINK: 'https://blog.mipaer.top',
 
   // 英雄区显示三个置顶分类
