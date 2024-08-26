@@ -24,7 +24,7 @@ export default function TouchMeCard() {
                         <div className='absolute left-0 top-0 w-full h-full' style={{ background: 'url(https://bu.dusays.com/2023/05/16/64633c4cd36a9.png) center center no-repeat' }}></div>
                     </div>}
                 backContent={<Link href={siteConfig('HEO_SOCIAL_CARD_URL', null, CONFIG)}>
-                    <div className="h-full flex justify-center items-center text-4xl font-[1000]">
+                    <div className="h-full flex justify-center items-center text-3xl font-[1000]">
               <img src="https://s1.locimg.com/2024/08/26/228f8b570cf4e.jpg" alt="TG" className="w-16 h-16 object-cover rounded-full border-4 border-white mr-4" />
                         {siteConfig('HEO_SOCIAL_CARD_TITLE_3', null, CONFIG)}
                     </div>
