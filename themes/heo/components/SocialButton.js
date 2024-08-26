@@ -1,4 +1,4 @@
-import { siteConfig } from '@/lib/config'
+// import { siteConfig } from '@/lib/config'
 
 /**
  * 社交联系方式按钮组
