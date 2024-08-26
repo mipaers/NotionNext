@@ -20,7 +20,7 @@ export default function TouchMeCard() {
                 frontContent={
                     <div className='h-full'>
                         <h2 className='font-[1000] text-3xl'>{siteConfig('HEO_SOCIAL_CARD_TITLE_1', null, CONFIG)}</h2>
-                        <h3 className='pt-2 font-[1000] tracking-wider'>{siteConfig('HEO_SOCIAL_CARD_TITLE_2', null, CONFIG)}</h3>
+                        <h3 className='pt-2 font-[1000] tracking-widest'>{siteConfig('HEO_SOCIAL_CARD_TITLE_2', null, CONFIG)}</h3>
                         <div className='absolute left-0 top-0 w-full h-full' style={{ background: 'url(https://bu.dusays.com/2023/05/16/64633c4cd36a9.png) center center no-repeat' }}></div>
                     </div>}
                 backContent={<Link href={siteConfig('HEO_SOCIAL_CARD_URL', null, CONFIG)}>
