@@ -346,29 +346,12 @@ function TodayCard({ cRef, siteInfo }) {
     router.push(link)
   }
 
-  export default function TodayCard({ isCoverUp, siteInfo, locale, handleCardClick, handleClickShowMore }) {
-  // 获取标题数组
-  const titles = [
-    siteConfig('HEO_HERO_TITLE_5', null, CONFIG),
-    siteConfig('HEO_HERO_TITLE_6', null, CONFIG),
-    siteConfig('HEO_HERO_TITLE_7', null, CONFIG)
-  ];
-
-  // 随机选择标题
-  const [randomTitle, setRandomTitle] = useState('');
-
-  useEffect(() => {
-    const randomIndex = Math.floor(Math.random() * titles.length);
-    setRandomTitle(titles[randomIndex]);
-  }, []);
-
   return (
     <div
       id='today-card'
       className={`${
-        isCoverUp ? '' : 'pointer-events-none'
-      } overflow-hidden absolute hidden xl:flex flex-1 flex-col h-full top-0 w-full`}
-    >
+        isCoverUp ? ' ' : 'pointer-events-none'
+      } overflow-hidden absolute hidden xl:flex flex-1 flex-col h-full top-0 w-full`}>
       <div
         id='card-body'
         onClick={handleCardClick}
@@ -376,28 +359,24 @@ function TodayCard({ cRef, siteInfo }) {
           isCoverUp
             ? 'opacity-100 cursor-pointer'
             : 'opacity-0 transform scale-110 pointer-events-none'
-        } shadow transition-all duration-200 today-card h-full bg-black rounded-xl relative overflow-hidden flex items-end`}
-      >
+        } shadow transition-all duration-200 today-card h-full bg-black rounded-xl relative overflow-hidden flex items-end`}>
         {/* 卡片文字信息 */}
         <div
           id='today-card-info'
-          className='flex justify-between w-full relative text-white p-10 items-end'
-        >
+          className='flex justify-between w-full relative text-white p-10 items-end'>
           <div className='flex flex-col'>
             <div className='text-xs font-light'>
               {siteConfig('HEO_HERO_TITLE_4', null, CONFIG)}
             </div>
             <div className='text-3xl font-bold'>
-              {randomTitle}
+              {siteConfig('HEO_HERO_TITLE_5', null, CONFIG)}
             </div>
           </div>
           {/* 查看更多的按钮 */}
           <div
             onClick={handleClickShowMore}
-            className={`${
-              isCoverUp ? '' : 'hidden pointer-events-none'
-            } z-10 group flex items-center px-3 h-10 justify-center rounded-3xl glassmorphism transition-colors duration-100`}
-          >
+            className={`'${isCoverUp ? '' : 'hidden pointer-events-none'} z-10 group flex items-center px-3 h-10 justify-center  rounded-3xl
+            glassmorphism transition-colors duration-100 `}>
             <PlusSmall
               className={
                 'group-hover:rotate-180 duration-500 transition-all w-6 h-6 mr-2 bg-white rounded-full stroke-black'
@@ -420,7 +399,7 @@ function TodayCard({ cRef, siteInfo }) {
         />
       </div>
     </div>
-  );
+  )
 }
 
 export default Hero
